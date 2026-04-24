@@ -1,0 +1,6 @@
+city,temperature_f,windspeed_kmh,weather_label,heat_label
+Houston,73.4,12.0,Overcast,Warm
+Cincinnati,72.7,9.1,Clear Sky,Warm
+Phoenix,70.0,4.7,Mainly Clear,Warm
+Chicago,67.6,11.6,Clear Sky,Warm
+New York,62.6,12.0,Clear Sky,Mild

@@ -1,0 +1,6 @@
+city,temperature_c,temperature_f,windspeed_kmh,wind_category,weather_label
+New York,17.0,62.6,12.0,Moderate,Clear Sky
+Chicago,19.8,67.6,11.6,Moderate,Clear Sky
+Houston,23.0,73.4,12.0,Moderate,Overcast
+Phoenix,21.1,70.0,4.7,Calm,Mainly Clear
+Cincinnati,22.6,72.7,9.1,Calm,Clear Sky
