@@ -4,13 +4,12 @@
 
 ## 📖 Project Overview
 
-An end-to-end ETL pipeline that fetches live weather data for 5 major 
+A complete ETL pipeline that fetches live weather data for 5 major 
 US cities from a public REST API, cleans and enriches it using Python, 
 stores it in a SQLite database, and generates SQL-powered CSV reports.
 
-The pipeline runs fully automated — from raw API response to structured, 
-queryable data — with a timestamped audit trail backup on every run.
-
+The pipeline runs as a sequential ETL workflow — from raw API response to structured, 
+queryable data — with a timestamped backup for tracking historical runs
 ---
 
 ## 🎯 Business Objective
@@ -165,3 +164,5 @@ python -m scripts.export     # Export CSV reports
 **Manne vaishnavi**
 
 MS in Computer Science
+
+GitHub: https://github.com/mannevi
