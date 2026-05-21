@@ -101,7 +101,7 @@ weather_etl_pipeline/
 
 ### Load
 - Clears old data before each run
-- Inserts clean data into SQLite database
+- Inserts clean data into SQLite database — 30 structured data points per execution (5 cities × 6 metrics)
 - Saves a timestamped CSV backup as audit trail
 ## ▶️ How to Run
 
