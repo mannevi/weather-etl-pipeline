@@ -79,6 +79,19 @@ weather_etl_pipeline/
 └── README.md
 ```
 
+## 🐳 Docker
+
+Run the full pipeline in a container — no local Python setup needed.
+
+**Build**
+docker build -t weather-etl-pipeline .
+
+**Run**
+docker run --name weather-pipeline -v %cd%/data:/app/data -v %cd%/output:/app/output weather-etl-pipeline
+
+All 5 steps run automatically — database setup → extract → transform → load → export.
+Pipeline completes in under 30 seconds.
+
 
 ## 🌐 Data Source
 
